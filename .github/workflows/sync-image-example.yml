@@ -27,4 +27,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/emlog/emlog:pro-latest-php7.4-apache://registry.cn-hangzhou.aliyuncs.com/chinatelecom-638000/emlog/emlog:pro-latest-php7.4-apache
+         skopeo copy docker://docker.io/emlog/emlog:pro-latest-php7.4-apache://registry.cn-hangzhou.aliyuncs.com/chinatelecom-638000/emlog:pro-latest-php7.4-apache
